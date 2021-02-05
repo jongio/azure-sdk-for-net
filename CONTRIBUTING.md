@@ -256,10 +256,12 @@ Since the [eng/Packages.Data.props](https://github.com/Azure/azure-sdk-for-net/b
 The Azure SDK for .NET releases packages daily from our CI pipeline to our NuGet package dev feed to help developers use and test new libraries before they are officially released to NuGet.
 
 **Dev Feed Package Browser**:
+
 1. https://aka.ms/azsdk/net/feed
 1. https://dev.azure.com/azure-sdk/public/_packaging?_a=feed&feed=azure-sdk-for-net
- 
+
 **Dev Feed Package Source**:
+
 1. https://aka.ms/azsdk/net/feed/index.json
 1. https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json
 
@@ -316,7 +318,7 @@ You can add the dev feed to your NuGet.Config file, which can be at the Solution
 You can use the following options to find the available dev feed packages:
 
 1. Search the Azure SDK for .NET Dev Feed: https://aka.ms/azsdk/net/feed
-1. In Visual Studio, use the [Package Manager UI](https://docs.microsoft.com/en-us/nuget/create-packages/prerelease-packages#installing-and-updating-pre-release-packages), be sure to check "Include prerelease".
+1. In Visual Studio, use the [Package Manager UI](https://docs.microsoft.com/nuget/create-packages/prerelease-packages#installing-and-updating-pre-release-packages), be sure to check "Include prerelease".
 1. Use the NuGet CLI, for example `nuget list azure.identity -Prerelease -Allversions`
 
 ### 3. Reference NuGet Package
